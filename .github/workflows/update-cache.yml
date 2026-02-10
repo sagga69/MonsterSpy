@@ -2,7 +2,7 @@ name: Update MonsterSpy cache
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # testing
+    - cron: '0 */12 * * *' # testing
   workflow_dispatch:
 
 jobs:
