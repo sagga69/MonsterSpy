@@ -2,17 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [data, setData] = useState({
-    total: 0,
-    new: [],
-    products: [],
-    lastCheck: "",
-  });
+  const [data, setData] = useState({ total: 0, new: [], products: [], lastCheck: "" });
 
   useEffect(() => {
     fetch("./cache.json")
-      .then((res) => res.json())
-      .then((json) => setData(json))
+      .then(res => res.json())
+      .then(setData)
       .catch(console.error);
   }, []);
 
@@ -27,7 +22,7 @@ function App() {
         <>
           <h2>🚨 New products:</h2>
           <ul>
-            {data.new.map((url) => (
+            {data.new.map(url => (
               <li key={url}>
                 <a href={url} target="_blank" rel="noopener noreferrer">
                   {url.split("/products/")[1].replace(/-/g, " ").toUpperCase()}
@@ -40,7 +35,7 @@ function App() {
 
       <h2>All Monster Energy products:</h2>
       <ul>
-        {data.products.map((url) => (
+        {data.products.map(url => (
           <li key={url}>
             <a href={url} target="_blank" rel="noopener noreferrer">
               {url.split("/products/")[1].replace(/-/g, " ").toUpperCase()}
