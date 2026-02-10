@@ -4,12 +4,19 @@ import "./App.css";
 function App() {
   const [data, setData] = useState({ total: 0, new: [], products: [], lastCheck: "" });
 
-  useEffect(() => {
-    fetch("./cache.json")
+useEffect(() => {
+  const load = () =>
+    fetch(
+      "https://raw.githubusercontent.com/sagga69/MonsterSpy/main/public/cache.json",
+      { cache: "no-store" }
+    )
       .then(res => res.json())
-      .then(setData)
-      .catch(console.error);
-  }, []);
+      .then(setData);
+
+  load();
+  const id = setInterval(load, 5 * 60 * 1000);
+  return () => clearInterval(id);
+}, []);
 
   return (
     <div className="App">
