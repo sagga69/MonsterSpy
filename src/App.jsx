@@ -10,12 +10,10 @@ function App() {
   });
 
   useEffect(() => {
-    async function fetchData() {
-      const res = await fetch("./cache.json");
-      const json = await res.json();
-      setData(json);
-    }
-    fetchData();
+    fetch("./cache.json")
+      .then((res) => res.json())
+      .then((json) => setData(json))
+      .catch(console.error);
   }, []);
 
   return (
