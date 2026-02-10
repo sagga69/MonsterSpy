@@ -1,0 +1,35 @@
+name: Update MonsterSpy cache
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          cd monitor
+          npm install node-fetch
+
+      - name: Run monitor
+        run: |
+          cd monitor
+          node monitor.js
+
+      - name: Commit cache.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add monitor/cache.json public/cache.json
+          git commit -m "Update MonsterSpy cache"
+          git push
