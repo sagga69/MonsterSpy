@@ -22,57 +22,66 @@ async function run() {
   let page = 1;
   let keepFetching = true;
 
-  console.log("🔍 Fetching products from Shopify...");
-
   while (keepFetching) {
     const res = await fetch(`${COLLECTION_URL}/products.json?limit=250&page=${page}`);
     const json = await res.json();
-
     if (json.products && json.products.length > 0) {
       allProducts = allProducts.concat(json.products);
-      console.log(`Page ${page}: Found ${json.products.length} items...`);
       page++;
     } else {
       keepFetching = false;
     }
-
-    if (page > 10) keepFetching = false;
   }
 
-
-  const foundProducts = allProducts
-    .filter(p => {
-      const handle = p.handle.toLowerCase();
-      const title = p.title.toLowerCase();
-      return handle.includes("monster") || title.includes("monster");
-    })
-    .map(p => `${BASE_URL}/products/${p.handle}`);
-
   const cache = loadCache();
-  const previous = cache.products || [];
-  const newProducts = foundProducts.filter(url => !previous.includes(url));
+  const previousUrls = (cache.products || []).map(p => p.url);
+  const uniqueFlavors = new Map();
 
-  console.log("🧃 MonsterSpy Report");
-  console.log("────────────────────");
-  console.log("Total Energy Drinks scanned:", allProducts.length);
-  console.log("Total Monster Energy products:", foundProducts.length);
-  console.log("New products detected:", newProducts.length);
+  allProducts
+    .filter(p => p.title.toLowerCase().includes("monster"))
+    .forEach(p => {
+      const title = p.title.toUpperCase();
+      
+      // Determine Tag
+      let tag = "";
+      if (title.includes("473ML") || title.includes("US")) tag = " [🇺🇸 US IMPORT]";
+      else if (title.includes("UK")) tag = " [🇬🇧 UK]";
+      else if (title.includes("355ML") && !title.includes("EU")) tag = " [🇺🇸 US/SPECIAL]";
+      else if (title.includes("150ML") || title.includes("M3")) tag = " [🇯🇵 JP]";
 
-  newProducts.forEach(p => console.log(" 🚨", p));
+      // Clean Name
+      let cleanName = title
+        .replace(/MONSTER ENERGY/g, "")
+        .replace(/MONSTER/g, "")
+        .replace(/\d+ML/g, "")
+        .replace(/\s\d+$/g, "")
+        .replace(/ZERO SUGAR/g, "")
+        .replace(/EU/g, "")
+        .replace(/UK/g, "")
+        .trim() + tag;
+
+      const url = `${BASE_URL}/products/${p.handle}`;
+
+      if (!uniqueFlavors.has(cleanName)) {
+        uniqueFlavors.set(cleanName, { name: cleanName, url: url });
+      }
+    });
+
+  const finalProducts = Array.from(uniqueFlavors.values());
+  
+  const newProducts = finalProducts.filter(p => !previousUrls.includes(p.url));
 
   const result = {
-    total: foundProducts.length,
-    products: foundProducts,
+    total: finalProducts.length,
+    products: finalProducts,
     new: newProducts,
     lastCheck: new Date().toISOString()
   };
 
-  if (foundProducts.length > 0) {
+  if (finalProducts.length > 0) {
     saveCache(result);
     fs.writeFileSync("public/cache.json", JSON.stringify(result, null, 2));
-    console.log("✅ Cache updated.");
-  } else {
-    console.log("⚠️ No products found. Cache not updated to prevent data loss.");
+    console.log(`✅ Done! Found ${finalProducts.length} unique flavors.`);
   }
 }
 

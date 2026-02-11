@@ -26,39 +26,33 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="App">
-      <h1>🧃 MonsterSpy</h1>
-      <p>Last checked: {new Date(data.lastCheck).toLocaleString()}</p>
-      <p>Total Monster Energy products: {data.total}</p>
-      <p>New products detected: {data.new.length}</p>
+  <div className="App">
+    <h1>🧃 MonsterSpy</h1>
+    <p>Last checked: {new Date(data.lastCheck).toLocaleString()}</p>
+    
+    {data.new && data.new.length > 0 && (
+      <div className="new-alerts">
+        <h2>🚨 NEW DROPS DETECTED:</h2>
+        <ul>
+          {data.new.map((item, i) => (
+            <li key={i} className="new-item">
+              <a href={item.url} target="_blank" rel="noreferrer">✨ {item.name}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
 
-      {data.new.length > 0 && (
-        <>
-          <h2>🚨 New products:</h2>
-          <ul>
-            {data.new.map(url => (
-              <li key={url}>
-                <a href={url} target="_blank" rel="noopener noreferrer">
-                  {url.split("/products/")[1].replace(/-/g, " ").toUpperCase()}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
-
-      <h2>All Monster Energy products:</h2>
-      <ul>
-        {data.products.map(url => (
-          <li key={url}>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              {url.split("/products/")[1].replace(/-/g, " ").toUpperCase()}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+    <h2>All Current Flavors:</h2>
+    <ul className="flavor-list">
+      {data.products.map((item, i) => (
+        <li key={i}>
+          <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
 }
 
 export default App;
