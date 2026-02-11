@@ -3,7 +3,7 @@ import fs from "fs";
 
 const BASE_URL = "https://ovrhypd.se";
 const COLLECTION_URL = `${BASE_URL}/collections/energidrycker`;
-const CACHE_FILE = "./cache.json";
+const CACHE_FILE = "monitor/cache.json";
 
 function loadCache() {
   try {
@@ -46,8 +46,7 @@ async function run() {
 
   saveCache(result);
 
-  // Also save to public/cache.json for frontend
-  fs.writeFileSync("../public/cache.json", JSON.stringify(result, null, 2));
+  fs.writeFileSync("public/cache.json", JSON.stringify(result, null, 2));
 }
 
 run();
