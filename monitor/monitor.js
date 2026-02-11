@@ -18,20 +18,43 @@ function saveCache(data) {
 }
 
 async function run() {
-  const res = await fetch(`${COLLECTION_URL}/products.json`);
-  const json = await res.json();
+  let allProducts = [];
+  let page = 1;
+  let keepFetching = true;
 
-  const foundProducts = json.products
-    .filter(p => p.handle.startsWith("monster-energy"))
+  console.log("🔍 Fetching products from Shopify...");
+
+  while (keepFetching) {
+    const res = await fetch(`${COLLECTION_URL}/products.json?limit=250&page=${page}`);
+    const json = await res.json();
+
+    if (json.products && json.products.length > 0) {
+      allProducts = allProducts.concat(json.products);
+      console.log(`Page ${page}: Found ${json.products.length} items...`);
+      page++;
+    } else {
+      keepFetching = false;
+    }
+
+    if (page > 10) keepFetching = false;
+  }
+
+
+  const foundProducts = allProducts
+    .filter(p => {
+      const handle = p.handle.toLowerCase();
+      const title = p.title.toLowerCase();
+      return handle.includes("monster") || title.includes("monster");
+    })
     .map(p => `${BASE_URL}/products/${p.handle}`);
 
   const cache = loadCache();
   const previous = cache.products || [];
-
   const newProducts = foundProducts.filter(url => !previous.includes(url));
 
   console.log("🧃 MonsterSpy Report");
   console.log("────────────────────");
+  console.log("Total Energy Drinks scanned:", allProducts.length);
   console.log("Total Monster Energy products:", foundProducts.length);
   console.log("New products detected:", newProducts.length);
 
@@ -44,9 +67,13 @@ async function run() {
     lastCheck: new Date().toISOString()
   };
 
-  saveCache(result);
-
-  fs.writeFileSync("public/cache.json", JSON.stringify(result, null, 2));
+  if (foundProducts.length > 0) {
+    saveCache(result);
+    fs.writeFileSync("public/cache.json", JSON.stringify(result, null, 2));
+    console.log("✅ Cache updated.");
+  } else {
+    console.log("⚠️ No products found. Cache not updated to prevent data loss.");
+  }
 }
 
 run();
