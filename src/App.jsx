@@ -6,12 +6,13 @@ function App() {
 
 useEffect(() => {
   const load = () => {
-    const cacheBuster = `?t=${new Date().getTime()}`;
-    const url = "https://raw.githubusercontent.com/sagga69/MonsterSpy/main/public/cache.json" + cacheBuster;
+    // Generate a unique number (timestamp) to bypass the browser's "disk cache"
+    const cacheBuster = new Date().getTime();
+    const url = `https://raw.githubusercontent.com/sagga69/MonsterSpy/main/public/cache.json?t=${cacheBuster}`;
 
     fetch(url)
       .then(res => {
-        if (!res.ok) throw new Error("Network response was not ok");
+        if (!res.ok) throw new Error("Could not load Monster data");
         return res.json();
       })
       .then(setData)
@@ -19,6 +20,7 @@ useEffect(() => {
   };
 
   load();
+  // Keep the 5-minute interval so the tab stays fresh if left open
   const id = setInterval(load, 5 * 60 * 1000);
   return () => clearInterval(id);
 }, []);
