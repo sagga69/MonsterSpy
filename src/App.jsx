@@ -5,13 +5,18 @@ function App() {
   const [data, setData] = useState({ total: 0, new: [], products: [], lastCheck: "" });
 
 useEffect(() => {
-  const load = () =>
-    fetch(
-      "https://raw.githubusercontent.com/sagga69/MonsterSpy/main/public/cache.json",
-      { cache: "no-store" }
-    )
-      .then(res => res.json())
-      .then(setData);
+  const load = () => {
+    const cacheBuster = `?t=${new Date().getTime()}`;
+    const url = "https://raw.githubusercontent.com/sagga69/MonsterSpy/main/public/cache.json" + cacheBuster;
+
+    fetch(url)
+      .then(res => {
+        if (!res.ok) throw new Error("Network response was not ok");
+        return res.json();
+      })
+      .then(setData)
+      .catch(err => console.error("Fetch error:", err));
+  };
 
   load();
   const id = setInterval(load, 5 * 60 * 1000);
