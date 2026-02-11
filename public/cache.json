@@ -1,8 +1,18 @@
 {
-  "total": 0,
+  "total": 5,
   "products": [
-
+    "https://ovrhypd.se/products/monster-energy-khaos-355ml",
+    "https://ovrhypd.se/products/monster-energy-mixxd-500ml",
+    "https://ovrhypd.se/products/monster-energy-ripper-uk-500ml",
+    "https://ovrhypd.se/products/monster-energy-m3-150ml",
+    "https://ovrhypd.se/products/monster-energy-absolutley-zero-355ml"
   ],
-  "new": [],
-  "lastCheck": "2026-02-10T15:12:26.430Z"
+  "new": [
+    "https://ovrhypd.se/products/monster-energy-khaos-355ml",
+    "https://ovrhypd.se/products/monster-energy-mixxd-500ml",
+    "https://ovrhypd.se/products/monster-energy-ripper-uk-500ml",
+    "https://ovrhypd.se/products/monster-energy-m3-150ml",
+    "https://ovrhypd.se/products/monster-energy-absolutley-zero-355ml"
+  ],
+  "lastCheck": "2026-02-11T10:55:23.458Z"
 }
