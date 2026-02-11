@@ -1,91 +1,360 @@
 {
   "total": 44,
   "products": [
-    "https://ovrhypd.se/products/monster-energy-khaos-355ml",
-    "https://ovrhypd.se/products/monster-energy-mixxd-500ml",
-    "https://ovrhypd.se/products/monster-energy-ripper-uk-500ml",
-    "https://ovrhypd.se/products/monster-energy-m3-150ml",
-    "https://ovrhypd.se/products/monster-energy-absolutley-zero-355ml",
-    "https://ovrhypd.se/products/monster-energy-the-doctor-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-violet-eu-500ml",
-    "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-blue-hawaiian-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-fiesta-500ml",
-    "https://ovrhypd.se/products/monster-energy-bad-apple-500ml",
-    "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-lemon-473ml",
-    "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-peach-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-vice-guava-473ml",
-    "https://ovrhypd.se/products/monster-mango-loco-500ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-wild-berry-tea-458ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-tea-lemonade-500ml",
-    "https://ovrhypd.se/products/monster-energy-monarch-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-peachy-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-wild-passion-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
-    "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-green-tea-458ml",
-    "https://ovrhypd.se/products/monster-energy-electric-blue-473ml",
-    "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml-2",
-    "https://ovrhypd.se/products/monster-energy-ultra-red-500ml",
-    "https://ovrhypd.se/products/monster-energy-khaotic-500ml-2",
-    "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml",
-    "https://ovrhypd.se/products/monster-energy-rio-punch-500ml",
-    "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
-    "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-black-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml",
-    "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml",
-    "https://ovrhypd.se/products/monster-energy-viking-500ml",
-    "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml",
-    "https://ovrhypd.se/products/monster-energy-zero-valentino-rossi-500ml",
-    "https://ovrhypd.se/products/monster-energy-zero-lando-norris-500ml-2",
-    "https://ovrhypd.se/products/monster-energy-ultra-watermelon-500ml"
+    {
+      "name": "KHAOS [🇺🇸 US/SPECIAL]",
+      "url": "https://ovrhypd.se/products/monster-energy-khaos-355ml"
+    },
+    {
+      "name": "MIXXD [🇬🇧 UK]",
+      "url": "https://ovrhypd.se/products/monster-energy-mixxd-500ml"
+    },
+    {
+      "name": "RIPPER [🇬🇧 UK]",
+      "url": "https://ovrhypd.se/products/monster-energy-ripper-uk-500ml"
+    },
+    {
+      "name": "M3 [🇯🇵 JP]",
+      "url": "https://ovrhypd.se/products/monster-energy-m3-150ml"
+    },
+    {
+      "name": "ABSOLUTLEY ZERO [🇺🇸 US/SPECIAL]",
+      "url": "https://ovrhypd.se/products/monster-energy-absolutley-zero-355ml"
+    },
+    {
+      "name": "THE DOCTOR",
+      "url": "https://ovrhypd.se/products/monster-energy-the-doctor-500ml"
+    },
+    {
+      "name": "ULTRA VIOLET",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-violet-eu-500ml"
+    },
+    {
+      "name": "PIPELINE PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml"
+    },
+    {
+      "name": "ULTRA BLUE HAWAIIAN [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-hawaiian-473ml"
+    },
+    {
+      "name": "ULTRA",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-500ml"
+    },
+    {
+      "name": "ULTRA FIESTA MANGO",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-fiesta-500ml"
+    },
+    {
+      "name": "BAD APPLE",
+      "url": "https://ovrhypd.se/products/monster-energy-bad-apple-500ml"
+    },
+    {
+      "name": "DRAGON ICE TEA LEMON [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-lemon-473ml"
+    },
+    {
+      "name": "DRAGON ICE TEA PEACH [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-peach-473ml"
+    },
+    {
+      "name": "ULTRA VICE GUAVA [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-vice-guava-473ml"
+    },
+    {
+      "name": "MANGO LOCO",
+      "url": "https://ovrhypd.se/products/monster-mango-loco-500ml"
+    },
+    {
+      "name": "REHAB WILD BERRY TEA",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-wild-berry-tea-458ml"
+    },
+    {
+      "name": "REHAB TEA LEMONADE",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-lemonade-500ml"
+    },
+    {
+      "name": "MONARCH",
+      "url": "https://ovrhypd.se/products/monster-energy-monarch-500ml"
+    },
+    {
+      "name": "ULTRA PEACHY",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-peachy-500ml"
+    },
+    {
+      "name": "ULTRA WILD PASSION [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-wild-passion-473ml"
+    },
+    {
+      "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml"
+    },
+    {
+      "name": "ORANGE DREAMSICLE",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml"
+    },
+    {
+      "name": "REHAB GREEN TEA",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-green-tea-458ml"
+    },
+    {
+      "name": "ELECTRIC BLUE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-electric-blue-473ml"
+    },
+    {
+      "name": "PIPELINE PUNCH JAPAN ALUMINIUMFLASKA",
+      "url": "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml-2"
+    },
+    {
+      "name": "ULTRA RED",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-red-500ml"
+    },
+    {
+      "name": "KHAOTIC",
+      "url": "https://ovrhypd.se/products/monster-energy-khaotic-500ml-2"
+    },
+    {
+      "name": "PACIFIC PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml"
+    },
+    {
+      "name": "ULTRA ZERO PARADISE",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml"
+    },
+    {
+      "name": "ULTRA FANTASY RUBY RED",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml"
+    },
+    {
+      "name": "RIO PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-rio-punch-500ml"
+    },
+    {
+      "name": "JAVA IRISH CREME",
+      "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml"
+    },
+    {
+      "name": "ULTRA STRAWBERRY DREAMS",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml"
+    },
+    {
+      "name": "ORANGE DREAMSICLE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml"
+    },
+    {
+      "name": "ULTRA BLACK",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-black-500ml"
+    },
+    {
+      "name": "ULTRA GOLD",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml"
+    },
+    {
+      "name": "REHAB TEA PEACH",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml"
+    },
+    {
+      "name": "RESERVE PEACHES N' CRÉME",
+      "url": "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml"
+    },
+    {
+      "name": "VIKING",
+      "url": "https://ovrhypd.se/products/monster-energy-viking-500ml"
+    },
+    {
+      "name": "LEWIS HAMILTON",
+      "url": "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml"
+    },
+    {
+      "name": "ZERO VALENTINO ROSSI",
+      "url": "https://ovrhypd.se/products/monster-energy-zero-valentino-rossi-500ml"
+    },
+    {
+      "name": "ZERO LANDO NORRIS",
+      "url": "https://ovrhypd.se/products/monster-energy-zero-lando-norris-500ml-2"
+    },
+    {
+      "name": "ULTRA WATERMELON",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-watermelon-500ml"
+    }
   ],
   "new": [
-    "https://ovrhypd.se/products/monster-energy-the-doctor-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-violet-eu-500ml",
-    "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-blue-hawaiian-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-fiesta-500ml",
-    "https://ovrhypd.se/products/monster-energy-bad-apple-500ml",
-    "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-lemon-473ml",
-    "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-peach-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-vice-guava-473ml",
-    "https://ovrhypd.se/products/monster-mango-loco-500ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-wild-berry-tea-458ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-tea-lemonade-500ml",
-    "https://ovrhypd.se/products/monster-energy-monarch-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-peachy-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-wild-passion-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
-    "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-green-tea-458ml",
-    "https://ovrhypd.se/products/monster-energy-electric-blue-473ml",
-    "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml-2",
-    "https://ovrhypd.se/products/monster-energy-ultra-red-500ml",
-    "https://ovrhypd.se/products/monster-energy-khaotic-500ml-2",
-    "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml",
-    "https://ovrhypd.se/products/monster-energy-rio-punch-500ml",
-    "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
-    "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-black-500ml",
-    "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml",
-    "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml",
-    "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml",
-    "https://ovrhypd.se/products/monster-energy-viking-500ml",
-    "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml",
-    "https://ovrhypd.se/products/monster-energy-zero-valentino-rossi-500ml",
-    "https://ovrhypd.se/products/monster-energy-zero-lando-norris-500ml-2",
-    "https://ovrhypd.se/products/monster-energy-ultra-watermelon-500ml"
+    {
+      "name": "KHAOS [🇺🇸 US/SPECIAL]",
+      "url": "https://ovrhypd.se/products/monster-energy-khaos-355ml"
+    },
+    {
+      "name": "MIXXD [🇬🇧 UK]",
+      "url": "https://ovrhypd.se/products/monster-energy-mixxd-500ml"
+    },
+    {
+      "name": "RIPPER [🇬🇧 UK]",
+      "url": "https://ovrhypd.se/products/monster-energy-ripper-uk-500ml"
+    },
+    {
+      "name": "M3 [🇯🇵 JP]",
+      "url": "https://ovrhypd.se/products/monster-energy-m3-150ml"
+    },
+    {
+      "name": "ABSOLUTLEY ZERO [🇺🇸 US/SPECIAL]",
+      "url": "https://ovrhypd.se/products/monster-energy-absolutley-zero-355ml"
+    },
+    {
+      "name": "THE DOCTOR",
+      "url": "https://ovrhypd.se/products/monster-energy-the-doctor-500ml"
+    },
+    {
+      "name": "ULTRA VIOLET",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-violet-eu-500ml"
+    },
+    {
+      "name": "PIPELINE PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml"
+    },
+    {
+      "name": "ULTRA BLUE HAWAIIAN [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-hawaiian-473ml"
+    },
+    {
+      "name": "ULTRA",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-500ml"
+    },
+    {
+      "name": "ULTRA FIESTA MANGO",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-fiesta-500ml"
+    },
+    {
+      "name": "BAD APPLE",
+      "url": "https://ovrhypd.se/products/monster-energy-bad-apple-500ml"
+    },
+    {
+      "name": "DRAGON ICE TEA LEMON [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-lemon-473ml"
+    },
+    {
+      "name": "DRAGON ICE TEA PEACH [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-dragon-ice-tea-peach-473ml"
+    },
+    {
+      "name": "ULTRA VICE GUAVA [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-vice-guava-473ml"
+    },
+    {
+      "name": "MANGO LOCO",
+      "url": "https://ovrhypd.se/products/monster-mango-loco-500ml"
+    },
+    {
+      "name": "REHAB WILD BERRY TEA",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-wild-berry-tea-458ml"
+    },
+    {
+      "name": "REHAB TEA LEMONADE",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-lemonade-500ml"
+    },
+    {
+      "name": "MONARCH",
+      "url": "https://ovrhypd.se/products/monster-energy-monarch-500ml"
+    },
+    {
+      "name": "ULTRA PEACHY",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-peachy-500ml"
+    },
+    {
+      "name": "ULTRA WILD PASSION [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-wild-passion-473ml"
+    },
+    {
+      "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml"
+    },
+    {
+      "name": "ORANGE DREAMSICLE",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml"
+    },
+    {
+      "name": "REHAB GREEN TEA",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-green-tea-458ml"
+    },
+    {
+      "name": "ELECTRIC BLUE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-electric-blue-473ml"
+    },
+    {
+      "name": "PIPELINE PUNCH JAPAN ALUMINIUMFLASKA",
+      "url": "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml-2"
+    },
+    {
+      "name": "ULTRA RED",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-red-500ml"
+    },
+    {
+      "name": "KHAOTIC",
+      "url": "https://ovrhypd.se/products/monster-energy-khaotic-500ml-2"
+    },
+    {
+      "name": "PACIFIC PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml"
+    },
+    {
+      "name": "ULTRA ZERO PARADISE",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml"
+    },
+    {
+      "name": "ULTRA FANTASY RUBY RED",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml"
+    },
+    {
+      "name": "RIO PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-rio-punch-500ml"
+    },
+    {
+      "name": "JAVA IRISH CREME",
+      "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml"
+    },
+    {
+      "name": "ULTRA STRAWBERRY DREAMS",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml"
+    },
+    {
+      "name": "ORANGE DREAMSICLE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml"
+    },
+    {
+      "name": "ULTRA BLACK",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-black-500ml"
+    },
+    {
+      "name": "ULTRA GOLD",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml"
+    },
+    {
+      "name": "REHAB TEA PEACH",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml"
+    },
+    {
+      "name": "RESERVE PEACHES N' CRÉME",
+      "url": "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml"
+    },
+    {
+      "name": "VIKING",
+      "url": "https://ovrhypd.se/products/monster-energy-viking-500ml"
+    },
+    {
+      "name": "LEWIS HAMILTON",
+      "url": "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml"
+    },
+    {
+      "name": "ZERO VALENTINO ROSSI",
+      "url": "https://ovrhypd.se/products/monster-energy-zero-valentino-rossi-500ml"
+    },
+    {
+      "name": "ZERO LANDO NORRIS",
+      "url": "https://ovrhypd.se/products/monster-energy-zero-lando-norris-500ml-2"
+    },
+    {
+      "name": "ULTRA WATERMELON",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-watermelon-500ml"
+    }
   ],
-  "lastCheck": "2026-02-11T11:17:36.965Z"
+  "lastCheck": "2026-02-11T11:28:28.841Z"
 }
