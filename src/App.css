@@ -1,42 +1,99 @@
-#root {
-  max-width: 1280px;
+:root {
+  --monster-green: #30ff00;
+  --bg-dark: #0a0a0a; /* Deeper black */
+  --card-bg: #161616;
+  --glass: rgba(255, 255, 255, 0.03);
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: #e0e0e0;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  margin: 0;
+}
+
+.App {
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 40px 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 { 
+  color: var(--monster-green); 
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin-bottom: 0;
+  text-shadow: 0 0 20px rgba(48, 255, 0, 0.2);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.last-check {
+  opacity: 0.5;
+  font-size: 0.85rem;
+  margin-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.flavor-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+  gap: 25px;
+  padding: 20px 0;
+  width: 100%;
+  justify-content: center;
 }
 
 .card {
-  padding: 2em;
+  background: var(--card-bg);
+  background: linear-gradient(145deg, #1e1e1e, #141414);
+  border-radius: 20px;
+  padding: 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
-.read-the-docs {
-  color: #888;
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--monster-green);
+  box-shadow: 0 10px 30px rgba(48, 255, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 15px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.new-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--monster-green);
+  color: black;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  z-index: 2;
+  box-shadow: 0 0 10px var(--monster-green);
 }

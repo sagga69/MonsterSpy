@@ -62,8 +62,23 @@ async function run() {
 
       const url = `${BASE_URL}/products/${p.handle}`;
 
+      const rawImage = p.images && p.images.length > 0 ? p.images[0].src : "";
+
+      let image = rawImage;
+      if (image.startsWith('//')) {
+          image = 'https:' + image;
+      }
+
+      if (!image) {
+        image = "https://placehold.co/400x600/1a1a1a/30ff00?text=No+Image";
+      }
+
       if (!uniqueFlavors.has(cleanName)) {
-        uniqueFlavors.set(cleanName, { name: cleanName, url: url });
+        uniqueFlavors.set(cleanName, { 
+        name: cleanName, 
+        url: url,
+        image: image
+      });
       }
     });
 
