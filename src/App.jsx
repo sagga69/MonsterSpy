@@ -8,7 +8,7 @@ useEffect(() => {
   const load = () => {
     // Generate a unique number (timestamp) to bypass the browser's "disk cache"
     const cacheBuster = new Date().getTime();
-    const url = `/public/cache.json`;
+    const url = `https://raw.githubusercontent.com/sagga69/MonsterSpy/main/public/cache.json`;
 
     fetch(url)
       .then(res => {
