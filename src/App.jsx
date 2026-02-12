@@ -69,20 +69,20 @@ return (
       </div>
     </section>
 
-      {newDrops.length > 0 && (
-        <section>
-          <h2 style={{color: '#ffcc00'}}>🚨 NEW DROPS</h2>
-          <div className="flavor-grid">
-            {newDrops.map((item, i) => (
-              <div key={i} className="card" style={{borderColor: '#ffcc00'}}>
-                <span className="new-badge">NEW</span>
-                <img src={item.image} alt={item.name} />
-                <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
+    {!search && newDrops.length > 0 && (
+      <section>
+        <h2 style={{color: '#ffcc00'}}>🚨 NEW DROPS</h2>
+        <div className="flavor-grid">
+          {newDrops.map((item, i) => (
+            <div key={i} className="card" style={{borderColor: '#ffcc00'}}>
+              <span className="new-badge">NEW</span>
+              <img src={item.image} alt={item.name} />
+              <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
 
     <section>
       <h2>All Flavors ({filteredProducts.length})</h2>
