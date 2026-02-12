@@ -107,14 +107,14 @@
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ULTRA_WILD_PASSION_473ml.webp?v=1769521924"
     },
     {
-      "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316812_a72084b9f739e488c691b3f0e5a91c86.webp?v=1763570780"
-    },
-    {
       "name": "ORANGE DREAMSICLE",
       "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318529_383c5e806d0d11582a3e5113b2bfc230.jpg?v=1763570854"
+    },
+    {
+      "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316812_a72084b9f739e488c691b3f0e5a91c86.webp?v=1763570780"
     },
     {
       "name": "REHAB GREEN TEA",
@@ -167,14 +167,14 @@
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/317335_e033f9fc8fcfff07e0e10cda6ba487cf.jpg?v=1763570640"
     },
     {
-      "name": "ULTRA STRAWBERRY DREAMS",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840"
-    },
-    {
       "name": "ORANGE DREAMSICLE [🇺🇸 US IMPORT]",
       "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605"
+    },
+    {
+      "name": "ULTRA STRAWBERRY DREAMS",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840"
     },
     {
       "name": "ULTRA BLACK",
@@ -223,5 +223,5 @@
     }
   ],
   "new": [],
-  "lastCheck": "2026-02-11T13:09:06.318Z"
+  "lastCheck": "2026-02-12T02:08:16.750Z"
 }
