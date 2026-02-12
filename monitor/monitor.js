@@ -34,7 +34,7 @@ async function run() {
   }
 
   const cache = loadCache();
-  const previousUrls = (cache.products || []).map(p => p.url);
+  const previousProducts = cache.products || [];
   const uniqueFlavors = new Map();
 
   allProducts
@@ -82,14 +82,21 @@ async function run() {
       }
     });
 
-  const finalProducts = Array.from(uniqueFlavors.values());
-  
-  const newProducts = finalProducts.filter(p => !previousUrls.includes(p.url));
+  const now = new Date().toISOString();
+
+  const finalProducts = Array.from(uniqueFlavors.values()).map(product => {
+    const existing = previousProducts.find(p => p.url === product.url);
+
+    return {
+      ...product,
+      firstSeen: existing ? existing.firstSeen : now
+    };
+  });
+
 
   const result = {
     total: finalProducts.length,
     products: finalProducts,
-    new: newProducts,
     lastCheck: new Date().toISOString()
   };
 
