@@ -140,16 +140,16 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "REHAB GREEN TEA",
-      "url": "https://ovrhypd.se/products/monster-energy-rehab-green-tea-458ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316811_36a7563e11b8943771a5f91ed997035d.png?v=1763570617",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ELECTRIC BLUE [🇺🇸 US IMPORT]",
       "url": "https://ovrhypd.se/products/monster-energy-electric-blue-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ELECTRIC_BLUE_473ml.png?v=1769521924",
       "firstSeen": "2026-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "REHAB GREEN TEA",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-green-tea-458ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316811_36a7563e11b8943771a5f91ed997035d.png?v=1763570617",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "PIPELINE PUNCH JAPAN ALUMINIUMFLASKA",
@@ -206,15 +206,15 @@
       "firstSeen": "2026-02-12T11:10:07.193Z"
     },
     {
-      "name": "ULTRA STRAWBERRY DREAMS",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ULTRA BLACK",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-black-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRABLACK500ml_433d04b6-5ab9-4820-bef3-fd965cacf674.jpg?v=1768234349",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "ULTRA STRAWBERRY DREAMS",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -266,5 +266,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-02-13T02:10:34.075Z"
+  "lastCheck": "2026-02-13T12:58:13.443Z"
 }
