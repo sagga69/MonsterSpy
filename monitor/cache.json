@@ -134,16 +134,16 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316812_a72084b9f739e488c691b3f0e5a91c86.webp?v=1763570780",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ELECTRIC BLUE [🇺🇸 US IMPORT]",
       "url": "https://ovrhypd.se/products/monster-energy-electric-blue-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ELECTRIC_BLUE_473ml.png?v=1769521924",
       "firstSeen": "2026-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316812_a72084b9f739e488c691b3f0e5a91c86.webp?v=1763570780",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "REHAB GREEN TEA",
@@ -194,16 +194,16 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "JAVA IRISH CREME",
-      "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/317335_e033f9fc8fcfff07e0e10cda6ba487cf.jpg?v=1763570640",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ORANGE DREAMSICLE [🇺🇸 US IMPORT]",
       "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605",
       "firstSeen": "2026-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "JAVA IRISH CREME",
+      "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/317335_e033f9fc8fcfff07e0e10cda6ba487cf.jpg?v=1763570640",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "ULTRA BLACK",
@@ -212,15 +212,15 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "ULTRA STRAWBERRY DREAMS",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ULTRA GOLD",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/286550_c3b86863855185fe1084ca20e3e7b1fd.jpg?v=1763570102",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "ULTRA STRAWBERRY DREAMS",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -266,5 +266,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-02-16T02:06:10.198Z"
+  "lastCheck": "2026-02-16T13:02:15.418Z"
 }
