@@ -128,16 +128,16 @@
       "firstSeen": "2026-02-12T11:10:07.193Z"
     },
     {
-      "name": "ORANGE DREAMSICLE",
-      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318529_383c5e806d0d11582a3e5113b2bfc230.jpg?v=1763570854",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ELECTRIC BLUE [🇺🇸 US IMPORT]",
       "url": "https://ovrhypd.se/products/monster-energy-electric-blue-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ELECTRIC_BLUE_473ml.png?v=1769521924",
       "firstSeen": "2026-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "ORANGE DREAMSICLE",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318529_383c5e806d0d11582a3e5113b2bfc230.jpg?v=1763570854",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
@@ -266,5 +266,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-02-21T12:45:54.426Z"
+  "lastCheck": "2026-02-22T02:05:51.655Z"
 }
