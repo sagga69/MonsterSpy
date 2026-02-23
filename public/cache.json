@@ -212,15 +212,15 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "ULTRA GOLD",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/286550_c3b86863855185fe1084ca20e3e7b1fd.jpg?v=1763570102",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ULTRA STRAWBERRY DREAMS",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "ULTRA GOLD",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/286550_c3b86863855185fe1084ca20e3e7b1fd.jpg?v=1763570102",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -266,5 +266,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-02-23T02:06:38.397Z"
+  "lastCheck": "2026-02-23T13:03:13.537Z"
 }
