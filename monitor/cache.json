@@ -1,5 +1,5 @@
 {
-  "total": 44,
+  "total": 47,
   "products": [
     {
       "name": "KHAOS [🇺🇸 US/SPECIAL]",
@@ -170,15 +170,15 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "PACIFIC PUNCH",
-      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
+      "name": "ULTRA PARADISE",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325521_4b86dbeeb0fa31ce19612e3fa7f0dc83.png?v=1763571196",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "ULTRA ZERO PARADISE",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325521_4b86dbeeb0fa31ce19612e3fa7f0dc83.png?v=1763571196",
+      "name": "PACIFIC PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -254,6 +254,24 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
+      "name": "JAVA LOCA MOCA",
+      "url": "https://ovrhypd.se/products/monster-energy-java-loca-moca-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVALOCAMOCA443ml.png?v=1772109089",
+      "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
+      "name": "JAVA MEAN BEAN",
+      "url": "https://ovrhypd.se/products/monster-energy-java-mean-bean-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVAMEANBEAN443ml.png?v=1772108987",
+      "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
+      "name": "JAVA SALTED CARAMEL",
+      "url": "https://ovrhypd.se/products/monster-energy-java-salted-caramel-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVASALTEDCARAMEL443ml.png?v=1772108803",
+      "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
       "name": "ZERO LANDO NORRIS",
       "url": "https://ovrhypd.se/products/monster-energy-zero-lando-norris-500ml-2",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYZEROLANDONORRIS500ml_8efdc3ba-8e97-4a93-b267-35dc5d583427.webp?v=1768234171",
@@ -266,5 +284,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-02-26T02:00:53.972Z"
+  "lastCheck": "2026-02-26T13:04:39.112Z"
 }
