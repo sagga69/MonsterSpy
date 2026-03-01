@@ -260,16 +260,16 @@
       "firstSeen": "2026-02-26T13:04:39.111Z"
     },
     {
-      "name": "ZERO VALENTINO ROSSI",
-      "url": "https://ovrhypd.se/products/monster-energy-zero-valentino-rossi-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYZEROVALENTINOROSSI500ml_5052e16d-bb6e-44cf-bbe1-fad321ce1af3.png?v=1768234230",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "JAVA LOCA MOCA",
       "url": "https://ovrhypd.se/products/monster-energy-java-loca-moca-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVALOCAMOCA443ml.png?v=1772109089",
       "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
+      "name": "ZERO VALENTINO ROSSI",
+      "url": "https://ovrhypd.se/products/monster-energy-zero-valentino-rossi-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYZEROVALENTINOROSSI500ml_5052e16d-bb6e-44cf-bbe1-fad321ce1af3.png?v=1768234230",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "ZERO LANDO NORRIS",
@@ -284,5 +284,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-02-28T12:43:46.746Z"
+  "lastCheck": "2026-03-01T02:12:23.007Z"
 }
