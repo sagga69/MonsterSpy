@@ -158,6 +158,12 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
+      "name": "ULTRA PARADISE",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325521_4b86dbeeb0fa31ce19612e3fa7f0dc83.png?v=1763571196",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
+    },
+    {
       "name": "ULTRA RED",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-red-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/326870_cf51d13fa80def57fe4a9f92dabd0057.jpg?v=1763571075",
@@ -167,12 +173,6 @@
       "name": "KHAOTIC",
       "url": "https://ovrhypd.se/products/monster-energy-khaotic-500ml-2",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/287276_708803411c6e193cf40bc48b26017bd8.jpg?v=1763570067",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
-      "name": "ULTRA PARADISE",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325521_4b86dbeeb0fa31ce19612e3fa7f0dc83.png?v=1763571196",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -242,12 +242,6 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "LEWIS HAMILTON",
-      "url": "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/295192_bebbdab5c67aee9a2254990ba06e09f0.jpg?v=1763570099",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "JAVA MEAN BEAN",
       "url": "https://ovrhypd.se/products/monster-energy-java-mean-bean-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVAMEANBEAN443ml.png?v=1772108987",
@@ -258,6 +252,12 @@
       "url": "https://ovrhypd.se/products/monster-energy-java-salted-caramel-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVASALTEDCARAMEL443ml.png?v=1772108803",
       "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
+      "name": "LEWIS HAMILTON",
+      "url": "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/295192_bebbdab5c67aee9a2254990ba06e09f0.jpg?v=1763570099",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "JAVA LOCA MOCA",
@@ -284,5 +284,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-03-02T12:57:35.289Z"
+  "lastCheck": "2026-03-03T02:05:16.103Z"
 }
