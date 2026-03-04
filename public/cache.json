@@ -176,15 +176,15 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "PACIFIC PUNCH",
-      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "ULTRA FANTASY RUBY RED",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRAFANTASYRUBYRED500ml.png?v=1768234466",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "PACIFIC PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -192,12 +192,6 @@
       "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605",
       "firstSeen": "2026-02-12T11:10:07.193Z"
-    },
-    {
-      "name": "RIO PUNCH",
-      "url": "https://ovrhypd.se/products/monster-energy-rio-punch-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/319668_5f2ac45ba59ff53cc2c3e17505bd41b1.jpg?v=1763570699",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "ULTRA BLACK",
@@ -209,6 +203,12 @@
       "name": "JAVA IRISH CREME",
       "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVAIRISHCREME443ml.jpg?v=1772213601",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
+    },
+    {
+      "name": "RIO PUNCH",
+      "url": "https://ovrhypd.se/products/monster-energy-rio-punch-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/319668_5f2ac45ba59ff53cc2c3e17505bd41b1.jpg?v=1763570699",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -230,16 +230,22 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
+      "name": "JAVA SALTED CARAMEL",
+      "url": "https://ovrhypd.se/products/monster-energy-java-salted-caramel-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVASALTEDCARAMEL443ml.png?v=1772108803",
+      "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
       "name": "RESERVE PEACHES N' CRÉME",
       "url": "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/326251_e31df196e1e873ca32681a44aeba7590.webp?v=1763571241",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
-      "name": "VIKING",
-      "url": "https://ovrhypd.se/products/monster-energy-viking-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYVIKING500ml.png?v=1768233708",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
+      "name": "JAVA LOCA MOCA",
+      "url": "https://ovrhypd.se/products/monster-energy-java-loca-moca-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVALOCAMOCA443ml.png?v=1772109089",
+      "firstSeen": "2026-02-26T13:04:39.111Z"
     },
     {
       "name": "JAVA MEAN BEAN",
@@ -248,22 +254,16 @@
       "firstSeen": "2026-02-26T13:04:39.111Z"
     },
     {
-      "name": "JAVA SALTED CARAMEL",
-      "url": "https://ovrhypd.se/products/monster-energy-java-salted-caramel-443ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVASALTEDCARAMEL443ml.png?v=1772108803",
-      "firstSeen": "2026-02-26T13:04:39.111Z"
+      "name": "VIKING",
+      "url": "https://ovrhypd.se/products/monster-energy-viking-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYVIKING500ml.png?v=1768233708",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "LEWIS HAMILTON",
       "url": "https://ovrhypd.se/products/monster-energy-lewis-hamilton-zero-sugar-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/295192_bebbdab5c67aee9a2254990ba06e09f0.jpg?v=1763570099",
       "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
-      "name": "JAVA LOCA MOCA",
-      "url": "https://ovrhypd.se/products/monster-energy-java-loca-moca-443ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVALOCAMOCA443ml.png?v=1772109089",
-      "firstSeen": "2026-02-26T13:04:39.111Z"
     },
     {
       "name": "ZERO VALENTINO ROSSI",
@@ -284,5 +284,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-03-03T12:56:32.934Z"
+  "lastCheck": "2026-03-04T01:58:53.216Z"
 }
