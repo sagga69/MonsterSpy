@@ -1,5 +1,5 @@
 {
-  "total": 47,
+  "total": 48,
   "products": [
     {
       "name": "KHAOS [🇺🇸 US/SPECIAL]",
@@ -100,7 +100,7 @@
     {
       "name": "REHAB WILD BERRY TEA",
       "url": "https://ovrhypd.se/products/monster-energy-rehab-wild-berry-tea-458ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/311912_5a612f0284e9c42261ffc2406216237d.png?v=1763570416",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYREHABWILDBERRYTEA458ml.png?v=1772648640",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -142,7 +142,7 @@
     {
       "name": "ULTRA BLUE [🇺🇸 US IMPORT]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/316812_a72084b9f739e488c691b3f0e5a91c86.webp?v=1763570780",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRABLUE473ml.png?v=1772648851",
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
@@ -254,7 +254,7 @@
       "firstSeen": "2026-02-26T13:04:39.111Z"
     },
     {
-      "name": "VIKING",
+      "name": "VIKING BERRY",
       "url": "https://ovrhypd.se/products/monster-energy-viking-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYVIKING500ml.png?v=1768233708",
       "firstSeen": "2025-02-12T11:10:07.193Z"
@@ -272,6 +272,12 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
+      "name": "ULTRA SUNRISE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-sunrise-473ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRASUNRISE473ml.png?v=1772640657",
+      "firstSeen": "2026-03-05T02:02:00.511Z"
+    },
+    {
       "name": "ZERO LANDO NORRIS",
       "url": "https://ovrhypd.se/products/monster-energy-zero-lando-norris-500ml-2",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYZEROLANDONORRIS500ml_8efdc3ba-8e97-4a93-b267-35dc5d583427.webp?v=1768234171",
@@ -284,5 +290,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-03-04T12:55:36.021Z"
+  "lastCheck": "2026-03-05T02:02:00.511Z"
 }
