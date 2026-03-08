@@ -12,6 +12,7 @@
   },
   "homepage": "https://sagga69.github.io/MonsterSpy",
   "dependencies": {
+    "html-entities": "^2.6.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
