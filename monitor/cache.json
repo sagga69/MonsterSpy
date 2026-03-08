@@ -176,6 +176,12 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
+      "name": "ORANGE DREAMSICLE [🇺🇸 US IMPORT]",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605",
+      "firstSeen": "2026-02-12T11:10:07.193Z"
+    },
+    {
       "name": "ULTRA FANTASY RUBY RED",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRAFANTASYRUBYRED500ml.png?v=1768234466",
@@ -186,12 +192,6 @@
       "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
       "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
-      "name": "ORANGE DREAMSICLE [🇺🇸 US IMPORT]",
-      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605",
-      "firstSeen": "2026-02-12T11:10:07.193Z"
     },
     {
       "name": "ULTRA BLACK",
@@ -236,12 +236,6 @@
       "firstSeen": "2026-02-26T13:04:39.111Z"
     },
     {
-      "name": "RESERVE PEACHES N' CRÉME",
-      "url": "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/326251_e31df196e1e873ca32681a44aeba7590.webp?v=1763571241",
-      "firstSeen": "2025-02-12T11:10:07.193Z"
-    },
-    {
       "name": "JAVA LOCA MOCA",
       "url": "https://ovrhypd.se/products/monster-energy-java-loca-moca-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVALOCAMOCA443ml.png?v=1772109089",
@@ -252,6 +246,12 @@
       "url": "https://ovrhypd.se/products/monster-energy-java-mean-bean-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVAMEANBEAN443ml.png?v=1772108987",
       "firstSeen": "2026-02-26T13:04:39.111Z"
+    },
+    {
+      "name": "RESERVE PEACHES N' CRÉME",
+      "url": "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/326251_e31df196e1e873ca32681a44aeba7590.webp?v=1763571241",
+      "firstSeen": "2025-02-12T11:10:07.193Z"
     },
     {
       "name": "VIKING BERRY",
@@ -290,5 +290,5 @@
       "firstSeen": "2025-02-12T11:10:07.193Z"
     }
   ],
-  "lastCheck": "2026-03-07T12:45:30.878Z"
+  "lastCheck": "2026-03-08T02:03:38.891Z"
 }
