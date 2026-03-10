@@ -1,5 +1,5 @@
 {
-  "total": 57,
+  "total": 58,
   "products": [
     {
       "name": "KHAOS [SPECIAL] [OVRHYPD]",
@@ -188,15 +188,15 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "JAVA IRISH CREME [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVAIRISHCREME443ml.jpg?v=1772213601",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "ULTRA BLACK [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-black-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRABLACK500ml_433d04b6-5ab9-4820-bef3-fd965cacf674.jpg?v=1768234349",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "JAVA IRISH CREME [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-java-irish-creme-443ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVAIRISHCREME443ml.jpg?v=1772213601",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
@@ -320,6 +320,12 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
+      "name": "RESERVE WHITE PINEAPPLE [CANDYPLANET]",
+      "url": "https://www.candyplanet.se/produkt/monster-energy-reserve-white-pineapple-500ml/",
+      "image": "https://www.candyplanet.se/wp-content/uploads/2025/06/monster-energy-reserve-white-pineapple-88762-3.jpg",
+      "firstSeen": "2026-03-10T12:59:14.390Z"
+    },
+    {
       "name": "ULTRA GOLDEN PINEAPPLE [CANDYPLANET]",
       "url": "https://www.candyplanet.se/produkt/monster-energy-ultra-golden-pineapple-500ml/",
       "image": "https://www.candyplanet.se/wp-content/uploads/2025/05/Produktbild-13.png",
@@ -344,5 +350,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-10T01:57:14.652Z"
+  "lastCheck": "2026-03-10T12:59:14.390Z"
 }
