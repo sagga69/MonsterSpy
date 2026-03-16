@@ -218,16 +218,16 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "REHAB TEA PEACH [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/321842_b3731dcdd40cf615b21d2ec70d2df5ba.webp?v=1763570745",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "JAVA SALTED CARAMEL [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-java-salted-caramel-443ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYJAVASALTEDCARAMEL443ml.png?v=1772108803",
       "firstSeen": "2026-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "REHAB TEA PEACH [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/321842_b3731dcdd40cf615b21d2ec70d2df5ba.webp?v=1763570745",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
       "name": "JAVA LOCA MOCA [OVRHYPD]",
@@ -350,5 +350,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-16T02:24:58.528Z"
+  "lastCheck": "2026-03-16T13:11:22.708Z"
 }
