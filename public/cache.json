@@ -1,5 +1,5 @@
 {
-  "total": 58,
+  "total": 60,
   "products": [
     {
       "name": "KHAOS [SPECIAL] [OVRHYPD]",
@@ -314,10 +314,22 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
+      "name": "ULTRA PARADISE (SOCKERFRI) [CANDYPLANET]",
+      "url": "https://www.candyplanet.se/produkt/monster-energy-ultra-paradise-sockerfri-500ml/",
+      "image": "https://www.candyplanet.se/wp-content/uploads/2025/11/Produktbild.png",
+      "firstSeen": "2026-03-18T02:08:02.900Z"
+    },
+    {
       "name": "ULTRA RED (SOCKERFRI) [CANDYPLANET]",
       "url": "https://www.candyplanet.se/produkt/monster-energy-ultra-red-sockerfri-500ml-kopia/",
       "image": "https://www.candyplanet.se/wp-content/uploads/2024/09/Foto-1-1.png",
       "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "NITRO SUPER DRY [CANDYPLANET]",
+      "url": "https://www.candyplanet.se/produkt/monster-energy-nitro-super-dry-500ml/",
+      "image": "https://www.candyplanet.se/wp-content/uploads/2025/07/Produktbild-5.png",
+      "firstSeen": "2026-03-18T02:08:02.900Z"
     },
     {
       "name": "RESERVE WHITE PINEAPPLE [CANDYPLANET]",
@@ -350,5 +362,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-17T13:10:56.559Z"
+  "lastCheck": "2026-03-18T02:08:02.900Z"
 }
