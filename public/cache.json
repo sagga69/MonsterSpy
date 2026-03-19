@@ -1,5 +1,5 @@
 {
-  "total": 60,
+  "total": 61,
   "products": [
     {
       "name": "KHAOS [SPECIAL] [OVRHYPD]",
@@ -134,15 +134,15 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "ORANGE DREAMSICLE [US] [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "ULTRA BLUE [US] [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-blue-473ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/monster-energy-ultra-blue-473ml.png?v=1772716644",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "ORANGE DREAMSICLE [US] [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-orange-dreamsicle-473ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTER_ENERGY_ORANGE_DREAMSICLE_473ml.png?v=1770040605",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
@@ -350,6 +350,12 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
+      "name": "WILD BERRY TEA KANADA [CANDYPLANET]",
+      "url": "https://www.candyplanet.se/produkt/monster-energy-wild-berry-tea-kanada/",
+      "image": "https://www.candyplanet.se/wp-content/uploads/2024/06/213119327-origpic-0e4079.png",
+      "firstSeen": "2026-03-19T13:03:33.065Z"
+    },
+    {
       "name": "ROSSI THE DOCTOR [CANDYPLANET]",
       "url": "https://www.candyplanet.se/produkt/monster-energy-rossi-the-doctor-500ml/",
       "image": "https://www.candyplanet.se/wp-content/uploads/2023/08/Monster-Kampanj-Meta.png",
@@ -362,5 +368,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-19T02:08:53.788Z"
+  "lastCheck": "2026-03-19T13:03:33.065Z"
 }
