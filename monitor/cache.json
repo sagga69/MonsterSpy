@@ -1,5 +1,5 @@
 {
-  "total": 61,
+  "total": 60,
   "products": [
     {
       "name": "KHAOS [SPECIAL] [OVRHYPD]",
@@ -344,12 +344,6 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "ASSAULT [CANDYPLANET]",
-      "url": "https://www.candyplanet.se/produkt/monster-energy-assault-500ml/",
-      "image": "https://www.candyplanet.se/wp-content/uploads/2024/11/Hupcz5UgtCtoXxfKen61xv2Vk036yd254wBcrcBL.webp",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "WILD BERRY TEA KANADA [CANDYPLANET]",
       "url": "https://www.candyplanet.se/produkt/monster-energy-wild-berry-tea-kanada/",
       "image": "https://www.candyplanet.se/wp-content/uploads/2024/06/213119327-origpic-0e4079.png",
@@ -368,5 +362,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-23T02:10:22.720Z"
+  "lastCheck": "2026-03-23T13:06:17.227Z"
 }
