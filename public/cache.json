@@ -1,5 +1,5 @@
 {
-  "total": 60,
+  "total": 59,
   "products": [
     {
       "name": "KHAOS [SPECIAL] [OVRHYPD]",
@@ -332,12 +332,6 @@
       "firstSeen": "2026-03-18T02:08:02.900Z"
     },
     {
-      "name": "RESERVE WHITE PINEAPPLE [CANDYPLANET]",
-      "url": "https://www.candyplanet.se/produkt/monster-energy-reserve-white-pineapple-500ml/",
-      "image": "https://www.candyplanet.se/wp-content/uploads/2025/06/monster-energy-reserve-white-pineapple-88762-3.jpg",
-      "firstSeen": "2026-03-10T12:59:14.390Z"
-    },
-    {
       "name": "ULTRA GOLDEN PINEAPPLE [CANDYPLANET]",
       "url": "https://www.candyplanet.se/produkt/monster-energy-ultra-golden-pineapple-500ml/",
       "image": "https://www.candyplanet.se/wp-content/uploads/2025/05/Produktbild-13.png",
@@ -362,5 +356,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-23T13:06:17.227Z"
+  "lastCheck": "2026-03-24T02:02:07.965Z"
 }
