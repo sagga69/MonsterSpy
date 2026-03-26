@@ -92,15 +92,15 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "MANGO LOCO [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-mango-loco-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/4222_20b202e60733c0ab52086d4cf60277b0.jpg?v=1763569938",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "REHAB WILD BERRY TEA [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-rehab-wild-berry-tea-458ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYREHABWILDBERRYTEA458ml_5ecd3f80-ab79-4ebb-a4c0-d09a60813ee6.png?v=1772716805",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "MANGO LOCO [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-mango-loco-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/4222_20b202e60733c0ab52086d4cf60277b0.jpg?v=1763569938",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
@@ -206,15 +206,15 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "ULTRA STRAWBERRY DREAMS [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "ULTRA GOLD [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-gold-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/286550_c3b86863855185fe1084ca20e3e7b1fd.jpg?v=1763570102",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "ULTRA STRAWBERRY DREAMS [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-strawberry-dreams-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/318145_a23f93a0f35d638486f6e35641dc45ad.jpg?v=1763570840",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
@@ -228,6 +228,12 @@
       "url": "https://ovrhypd.se/products/monster-energy-rehab-tea-peach-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/321842_b3731dcdd40cf615b21d2ec70d2df5ba.webp?v=1763570745",
       "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "ULTRA SUNRISE [US] [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-ultra-sunrise-473ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRASUNRISE473ml.jpg?v=1772716736",
+      "firstSeen": "2026-03-08T11:39:39.331Z"
     },
     {
       "name": "JAVA LOCA MOCA [OVRHYPD]",
@@ -246,12 +252,6 @@
       "url": "https://ovrhypd.se/products/monster-energy-reserve-peaches-n-creme-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/326251_e31df196e1e873ca32681a44aeba7590.webp?v=1763571241",
       "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
-      "name": "ULTRA SUNRISE [US] [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-ultra-sunrise-473ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRASUNRISE473ml.jpg?v=1772716736",
-      "firstSeen": "2026-03-08T11:39:39.331Z"
     },
     {
       "name": "VIKING BERRY [OVRHYPD]",
@@ -356,5 +356,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-26T02:13:47.326Z"
+  "lastCheck": "2026-03-26T13:14:51.078Z"
 }
