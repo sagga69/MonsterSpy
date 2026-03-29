@@ -1,5 +1,5 @@
 {
-  "total": 58,
+  "total": 57,
   "products": [
     {
       "name": "KHAOS [SPECIAL] [OVRHYPD]",
@@ -152,21 +152,27 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "PIPELINE PUNCH JAPAN ALUMINIUMFLASKA [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml-2",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/317275_68b9b4abb74826d22a27a2e7ac587f27.jpg?v=1763570806",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "ULTRA PARADISE [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-zero-paradise-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325521_4b86dbeeb0fa31ce19612e3fa7f0dc83.png?v=1763571196",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
+      "name": "PIPELINE PUNCH JAPAN ALUMINIUMFLASKA [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-pipeline-punch-500ml-2",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/317275_68b9b4abb74826d22a27a2e7ac587f27.jpg?v=1763570806",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
       "name": "ULTRA RED [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-red-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/326870_cf51d13fa80def57fe4a9f92dabd0057.jpg?v=1763571075",
+      "firstSeen": "2025-03-08T11:39:39.331Z"
+    },
+    {
+      "name": "PACIFIC PUNCH [OVRHYPD]",
+      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
+      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
@@ -179,12 +185,6 @@
       "name": "ULTRA FANTASY RUBY RED [OVRHYPD]",
       "url": "https://ovrhypd.se/products/monster-energy-ultra-fantasy-ruby-red-500ml",
       "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/MONSTERENERGYULTRAFANTASYRUBYRED500ml.png?v=1768234466",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
-      "name": "PACIFIC PUNCH [OVRHYPD]",
-      "url": "https://ovrhypd.se/products/monster-energy-pacific-punch-500ml",
-      "image": "https://cdn.shopify.com/s/files/1/0915/2652/9402/files/325520_57f467cd1b870eef15b79887ebe0558b.jpg?v=1763571208",
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
@@ -308,12 +308,6 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     },
     {
-      "name": "JAVA  CAFÉ LATTE  USA [US] [CANDYPLANET]",
-      "url": "https://www.candyplanet.se/produkt/monster-energy-java-cafe-latte-443ml-usa/",
-      "image": "https://www.candyplanet.se/wp-content/uploads/2025/11/Monster-Energy-Java-Cafe-Latte-500ml-USA.jpg",
-      "firstSeen": "2025-03-08T11:39:39.331Z"
-    },
-    {
       "name": "ULTRA PARADISE (SOCKERFRI) [CANDYPLANET]",
       "url": "https://www.candyplanet.se/produkt/monster-energy-ultra-paradise-sockerfri-500ml/",
       "image": "https://www.candyplanet.se/wp-content/uploads/2025/11/Produktbild.png",
@@ -350,5 +344,5 @@
       "firstSeen": "2025-03-08T11:39:39.331Z"
     }
   ],
-  "lastCheck": "2026-03-29T02:25:12.225Z"
+  "lastCheck": "2026-03-29T12:54:58.238Z"
 }
