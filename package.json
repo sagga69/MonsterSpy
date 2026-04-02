@@ -12,6 +12,8 @@
   },
   "homepage": "https://sagga69.github.io/MonsterSpy",
   "dependencies": {
+    "firebase": "^12.11.0",
+    "firebase-admin": "^13.7.0",
     "html-entities": "^2.6.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
